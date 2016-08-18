@@ -8,7 +8,8 @@ from [Nodejs.org](https://nodejs.org/en/).
 
 If you have git configured on your computer ([read about how to do that
 here](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)) you
-can do `$ git clone https://github.com/CodesmithLLC/summer-of-js.git` on 
+can do `$ git clone https://github.com/CodesmithLLC/summer-of-javascript.git` on
+a
 terminal and download all the code in this repo.
 <br>
 Once downloaded the code can be read through and the tests can be changed or
