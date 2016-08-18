@@ -32,7 +32,7 @@ function highestSumPath (matrix) {
 
     // check right
     if (col < collen) {
-      makePath(row, col + 1, partialSum + matrix[row][col], path + ' right')
+      makePath(row, col + 1, partialSum + matrix[row][col], path + 'right ')
     }
 
     // check down
