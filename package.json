@@ -1,0 +1,19 @@
+{
+  "name": "summer-of-javascript-solutions",
+  "version": "0.0.1",
+  "description": "Solutions for Build With Code Summer of JS: Email Challenges",
+  "scripts": {
+    "test": "./runtest $1"
+  },
+  "keywords": [
+    "JSHP",
+    "Codesmith",
+    "Summer of JavaScript"
+  ],
+  "author": "CodesmithLLC",
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
