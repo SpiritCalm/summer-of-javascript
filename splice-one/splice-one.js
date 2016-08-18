@@ -7,18 +7,19 @@ const spliceOne = (arr, idx, val) => {
   // store arr.length
   var len = arr.length
 
-  // edge cases: check if index is larger than array
   if (idx > len) return false
 
   // if no val arg is passed in, simply remove the value at idx
   if (!val) {
     if (idx < len - 1) {
-      // for loop with i = idx and copy arr[i + 1] to arr[i]
-
+      for (let i = idx; i < len; i++) {
+        arr[i] = arr[i + 1]
       }
+    }
     // remove last value
+    delete arr[len - 1]
 
-    // update length of array (subtract 1)
+    // update length of array
     len -= 1
   } else {
     // iterate right to left, copy all vals after idx to the right
@@ -27,7 +28,7 @@ const spliceOne = (arr, idx, val) => {
     }
 
     // overwrite arr[idx] with value
-
+    arr[idx] = val
   }
   return arr
 }
