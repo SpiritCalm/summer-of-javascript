@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+# bash script for calling `npm test` on specific files in `test/`
+node tests/$1-test.js | ./node_modules/.bin/tap-spec
+
