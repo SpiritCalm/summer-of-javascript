@@ -1,5 +1,5 @@
 const test = require('tape')
-const balanceIndex = require('./../balance-index/balance-index-sol')
+const balanceIndex = require('./../balance-index/balance-index')
 
 test('finds balanced index', (t) => {
   t.plan(4)
